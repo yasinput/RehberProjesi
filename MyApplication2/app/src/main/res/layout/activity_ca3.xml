@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ca3">
+
+    <!-- ScrollView ile kaydırma alanı ekliyoruz -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Başlık -->
+            <TextView
+                android:id="@+id/sultanAhmetTarihi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sultan Ahmet Camii Tarihi"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Metin İçeriği -->
+            <TextView
+                android:id="@+id/sultanAhmetMetin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sultan Ahmet Camii veya Sultânahmed Camiî, 1609-1617 yılları arasında Osmanlı Padişahı I. Ahmed tarafından İstanbul'daki tarihî yarımadada, Mimar Sedefkâr Mehmed Ağa'ya yaptırılmıştır. Cami; mavi, yeşil ve beyaz renkli İznik çinileriyle bezendiği için ve yarım kubbeleri ile büyük kubbesinin içi de yine mavi ağırlıklı kalem işleriyle süslendiği için Avrupalılar tarafından 'Mavi Camii (Blue Mosque)' olarak adlandırılır. Ayasofya'nın 1935 yılında camiden müzeye dönüştürülmesiyle, İstanbul'un ana camii konumuna ulaşmıştır.\n\nAslında Sultanahmet Camii külliyesiyle birlikte, İstanbul’daki en büyük eserlerden biridir. Bu külliye bir cami, medreseler, hünkar kasrı, arasta, dükkânlar, hamam, çeşme, sebiller, türbe, darüşşifa, sıbyan mektebi, imarethane ve kiralık odalardan oluşmaktadır. Bu yapıların bir kısmı günümüze ulaşamamıştır.\n\nYapının mimari ve sanatsal açıdan dikkate şayan en önemli yanı, 20.000'i aşkın İznik çinisiyle bezenmesidir. Bu çinilerin süslemelerinde sarı ve mavi tonlardaki geleneksel bitki motifleri kullanılmış, yapıyı sadece bir ibadethane olmaktan öteye taşımıştır. Caminin ibadethane bölümü 64 x 72 metre boyutlarındadır. 43 metre yüksekliğindeki merkezi kubbesinin çapı 23,5 metredir. Caminin içi 200'den fazla renkli cam ile aydınlatılmıştır. Yazıları Diyarbakırlı Seyyid Kasım Gubarî tarafından yazılmıştır. Çevresindeki yapılarla birlikte bir külliye oluşturur ve Sultanahmet, Türkiye'nin altı minareli ilk camiidir.\n\nMimari\nSultan Ahmet Camii'nin tasarımı Osmanlı cami mimarisi ile Bizans kilise mimarisinin 200 yıllık sentezinin zirvesini oluşturur. Komşusu olan Ayasofya'dan bazı Bizans esintileri içermesinin yanı sıra geleneksel İslami mimari de ağır basar ve klasik dönemin son büyük camisi olarak görülür. Caminin mimarı, Mimar Sedefkar Mehmet Ağa'nın 'boyutta büyüklük, heybet ve ihtişam' fikirlerini yansıtmada başarılı olmuştur.\n\nDış\nKöşe kubbelerin üstündeki küçük kulelerin eklenmesi dışında, geniş ön avlunun cephesi Süleymaniye Camii'nin cephesiyle aynı tarzda yapılmıştır. Avlu neredeyse caminin kendisi kadar geniştir ve kesintisiz bir kemeraltıyla çevrilmiştir. Her iki tarafında abdesthaneler vardır. Ortadaki büyük altıgen fıskiye avlunun boyutları göz önüne alındığında küçük kalır. Avluya doğru açılan dar anıtsal geçit kemeraltından mimari olarak farklı durur. Yarım kubbesi kendinden daha küçük çıkıntılı bir kubbe ile taçlandırılmış ve ince sarkıt bir yapıya sahiptir."
+                android:textSize="16sp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

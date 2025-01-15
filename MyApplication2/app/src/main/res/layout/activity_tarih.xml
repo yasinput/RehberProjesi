@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarih">
+
+    <!-- ScrollView eklendi, metnin taşmasını engellemek için -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Ana Başlık -->
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TÜRKİYE TARİHİ"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Antik Dönem Başlığı ve İçeriği -->
+            <TextView
+                android:id="@+id/textViewAntikDonemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Antik Dönem"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/textViewAntikDonemContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Türkiye, antik çağda pek çok önemli medeniyete ev sahipliği yapmıştır. Hititler, Frigler, Urartular ve Lidyalılar gibi medeniyetler, bölgedeki ilk büyük uygarlıklardan bazılarıdır. Ayrıca, antik Yunan ve Roma İmparatorlukları da Anadolu'yu etkilemiştir."
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Bizans İmparatorluğu Başlığı ve İçeriği -->
+            <TextView
+                android:id="@+id/textViewBizansTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bizans İmparatorluğu"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/textViewBizansContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roma İmparatorluğu'nun ikiye ayrılmasından sonra Anadolu, Bizans İmparatorluğu'nun merkezi haline gelmiştir. İstanbul (eski adıyla Byzantion) önemli bir kültür ve ticaret merkezi olmuştur."
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Selçuklu ve Osmanlı Dönemi Başlığı ve İçeriği -->
+            <TextView
+                android:id="@+id/textViewSelcukluOsmanliTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selçuklu ve Osmanlı Dönemi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/textViewSelcukluOsmanliContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. yüzyılda Selçuklu Türkleri Anadolu'ya yerleşmeye başlamış ve Anadolu Selçuklu Devleti kurulmuştur. Osmanlı İmparatorluğu ise 1299 yılında Osman Gazi tarafından kurulmuş ve 1922'ye kadar varlığını sürdürmüştür. Osmanlı İmparatorluğu, üç kıtada hüküm süren büyük bir güç haline gelmiştir."
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Cumhuriyetin Kuruluşu Başlığı ve İçeriği -->
+            <TextView
+                android:id="@+id/textViewCumhuriyetKurulusuTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cumhuriyetin Kuruluşu"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/textViewCumhuriyetKurulusuContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Osmanlı İmparatorluğu'nun I. Dünya Savaşı ve sonrasındaki çöküşüyle birlikte, Mustafa Kemal Atatürk önderliğinde Kurtuluş Savaşı verilmiş ve 29 Ekim 1923'te Türkiye Cumhuriyeti ilan edilmiştir. Atatürk, modern Türkiye'yi kurarak, devletin yapısını köklü şekilde değiştirmiştir."
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Cumhuriyet Dönemi Başlığı ve İçeriği -->
+            <TextView
+                android:id="@+id/textViewCumhuriyetDonemiTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cumhuriyet Dönemi"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/textViewCumhuriyetDonemiContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cumhuriyetin ilk yıllarından itibaren Türkiye, hızla modernleşmiş ve sanayileşme, eğitim ve hukuk reformları gibi birçok alanda önemli adımlar atılmıştır. Günümüzde Türkiye, hem bölgesel hem de küresel düzeyde önemli bir ülkedir."
+                android:textSize="16sp" />
+
+            <!-- Butonlar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/buttonCami"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Camiler"
+                    android:layout_marginEnd="16dp" />
+
+                <Button
+                    android:id="@+id/buttonMuze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Müzeler"
+                    android:layout_marginEnd="16dp" />
+
+                <Button
+                    android:id="@+id/buttonGorselEkle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:text="Görsel Ekle" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

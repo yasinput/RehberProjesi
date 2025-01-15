@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ca2">
+
+    <!-- ScrollView ile kaydırma alanı ekliyoruz -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Başlık -->
+            <TextView
+                android:id="@+id/selimiyeTarihi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selimiye Camii Tarihi"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Metin İçeriği -->
+            <TextView
+                android:id="@+id/selimiyeMetin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selimiye Camii, Osmanlı padişahı II. Selim döneminde Mimar Sinan'ın yaptığı ve Osmanlı'nın önceki başkenti Edirne'de bulunan bir külliyedir. Mimar Sinan'ın 80 yaşında yaptığı ve 'ustalık eserim' şeklinde nitelendirdiği Selimiye Camii, gerek Mimar Sinan'ın, gerek Osmanlı mimarisinin en önemli eserleri arasında sayılır.\n\nCaminin kitâbesine göre, yapımına 1568 (Hicrî: 976) yılında başlanmıştır. Caminin 27 Kasım 1574 Cuma günü açılması planlanmış olsa da ancak II. Selim'in ölümünün ardından 14 Mart 1575'te ibadete açılmıştır.\n\nMülkiyeti, Sultan Selim Vakfı'ndadır. Bugün şehrin merkezinde bulunan caminin yapıldığı alanda inşasına Süleyman Çelebi devrinde başlanan, Yıldırım Bayezid devrinde geliştiririlen Edirne'nin ilk sarayı (Saray-ı elik) ve Baltacı Muhafızları haremi bulunmaktaydı. Kaynaklarda söz konusu bu alandan Sarıbayır ya da Kavak Meydanı isimleriyle de bahsedilir.\n\n2000'de UNESCO tarafından Dünya Mirası listesine dahil edilen Selimiye Camii ve külliyesi, 2011'de ise Dünya Mirası olarak tescil edildi.\n\nTarihçe\nEdirne'nin seçilmesinin nedeni\nSultan’ın caminin yapılacağı şehir olarak neden Edirne'yi seçtiği kesin olarak bilinmemektedir. Evliya Çelebi Seyahatname adlı eserinde padişahın rüyasında İslam peygamberi Muhammed'i gördüğünü ve onun kendisinden Kıbrıs'ın fethi anısına bir cami yaptırmasını istediğini yazmıştır. Ancak caminin yapımına başlanmasından üç yıl sonra 1571'de fethedildiği bilindiğinden bu iddianın doğruluk payı olamaz. Bu konudaki daha gerçekçi yorumlarda ise o dönemde İstanbul'da yeni bir büyük camiye ihtiyaç duyulmadığı, Edirne'nin Rumeli'deki Osmanlı egemenliğinin merkezi konumunda olduğu ve Selim'in gençlik yıllarından beri şehre ayrı sevgi beslediğine dikkat çekilir.\n\nKubbe\nBir tepe üzerinde bulunan Selimiye'de daha önceki hiçbir camide ya da antik çağ mabedinde görülmemiş bir teknik kullanılmıştır. Daha önceki kubbeli yapılarda, asıl kubbe kademeli yarım kubbelerin üzerinde yükselmesine rağmen, Selimiye Camii 43,25 metre yüksekliğinde, 31,25 metre çapında, tek bir lebi ile örtülmüştür. Kubbe, 8 sütuna dayanan bir kasnak üzerine oturtulmuştur. Kasnak, filayaklarına 6 metre genişliğinde kemerlerle bağlıdır. Mimar Sinan, bu şekilde örttüğü iç mekana verdiği genişlik ve ferahlıkla birlikte mekanın bir kerede kolayca anlaşılmasını sağlar. Kubbe aynı zamanda camiinin dış görünüşünün ana hatlarını da belirler."
+                android:textSize="16sp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

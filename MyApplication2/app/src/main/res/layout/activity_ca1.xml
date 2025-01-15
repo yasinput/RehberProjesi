@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ca1">
+
+    <!-- ScrollView ile kaydırma alanı ekliyoruz -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Başlık -->
+            <TextView
+                android:id="@+id/ayasofyaTarihi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayasofya Tarihi"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp" />
+
+            <!-- Metin İçeriği -->
+            <TextView
+                android:id="@+id/ayasofyaMetin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayasofya aynı yere üç kez inşa edilmiş bir eserdir. Günümüzdeki Ayasofya ‘Üçüncü Ayasofya’ olarak bilinmektedir. Ayasofya’nın ilk inşaatı Hıristiyanlığı Roma İmparatorluğu’nun resmi dini olarak kabul eden I. Konstantin döneminde başlatılmıştır. İstanbul’un yedi tepesinden birincisi üzerinde ahşap çatılı bir bazilika olarak inşa edilen ve o dönemde ‘Büyük Kilise’ ismiyle anılan bu yapının açılışı, 360 yılında II. Konstantin döneminde gerçekleşmiştir. 404 yılında başlayan isyanda çıkan bir yangın neticesinde büyük ölçüde harap olan bu yapıdan günümüze ulaşan bir kalıntı bulunmamaktadır. İkinci Ayasofya, İmparator II. Theodosius tarafından birincisinin üzerine inşa ettirilmiş ve 415 yılında ibadete açılmıştır. Yine bazilika şeklinde ve ahşap çatılı olarak inşa edilen bu yapı ise, 532 yılında İmparator Jüstinyen aleyhinde çıkan Nika Ayaklanması’nda isyancılar tarafından yakılıp yıkılmıştır. İmparator Jüstinyen isyanın hemen ardından ilk ikisinden çok daha büyük ve görkemli bir Ayasofya yaptırmaya karar vermiştir. Üçüncü Ayasofya Bizans İmparatoru I. Jüstinyen tarafından 532-537 yıllarında inşa ettirilmiştir. Doğu Roma’nın İmparatorluk Kilisesi olarak kullanılan Ayasofya, tarih boyunca isyanlar, savaşlar ve doğal afetler yüzünden sık sık tahrip olmuştur. Ayasofya en büyük yıkımlardan birini 1204’te 4. Haçlı Seferi’nde şehrin istila edilmesiyle yaşamıştır. Haçlılar tüm şehirle birlikte Ayasofya’yı da yağmalamıştır. İstanbul’da 1204 yılından 1261 yılına kadar süren Latin işgali müddetince Ayasofya, Roma Katolik Kilisesi’ne bağlı bir katedrale dönüştürülmüştür. Ciddi hasarlar almış olan Ayasofya, İstanbul’da tekrar Doğu Roma idaresinin sağlanmasının ardından tamirlerle ayakta tutulmaya çalışılmıştır. Bununla birlikte, yapılan tamiratlar yetersiz kalmış ve 1346 yılında Ayasofya’nın doğudaki başkemeri ve kubbenin bir kısmı çökmüştür."
+                android:textSize="16sp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
